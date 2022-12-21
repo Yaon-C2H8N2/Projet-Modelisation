@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE catalogue SYSTEM "catalogue.dtd">
+<catalogue>
+    <livre>
+        <titre>Le Petit Prince</titre>
+        <description>
+            <image src="/data/images/covers/le_petit_prince.png"/>
+            <prix devise="EUR">10</prix>
+            <txtDescription>Le Petit Prince est une oeuvre de langue française, la plus connue d'Antoine de
+                Saint-Exupéry. Publié en 1943 à New York simultanément à sa traduction anglaise, c'est une oeuvre
+                poétique et philosophique sous l'apparence d'un conte pour enfants.
+            </txtDescription>
+        </description>
+        <auteur>
+            <nom>de Saint-Exupéry</nom>
+            <prenom>Antoine</prenom>
+        </auteur>
+    </livre>
+    <livre>
+        <titre>L'éveil du Léviathan</titre>
+        <description>
+            <image src="/data/images/covers/eveil_du_leviathan.png"/>
+            <prix devise="EUR">12</prix>
+            <txtDescription>L'Éveil du Léviathan (titre original : Leviathan Wakes) est un roman de science-fiction de
+                l'écrivain américain James S. A. Corey, publié en 2011 puis traduit en français et publié en 2014. Il
+                s'agit du premier roman de la série The Expanse.
+            </txtDescription>
+        </description>
+        <auteur>
+            <nom>Corey</nom>
+            <prenom>James</prenom>
+        </auteur>
+        <auteur>
+            <nom>Abraham</nom>
+            <prenom>Daniel</prenom>
+        </auteur>
+        <auteur>
+            <nom>Franck</nom>
+            <prenom>Tyler</prenom>
+        </auteur>
+    </livre>
+</catalogue>

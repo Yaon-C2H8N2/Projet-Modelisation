@@ -1,0 +1,18 @@
+<!ELEMENT catalogue (livre*)>
+<!ELEMENT livre (titre, description, auteur+)>
+
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT description (image, prix, txtDescription, commentaire*)>
+<!ELEMENT image ()>
+<!ATTLIST image src CDATA #REQUIRED>
+<!ELEMENT prix (#PCDATA)>
+<!ATTLIST prix devise CDATA #REQUIRED>
+<!ELEMENT txtDescription (#PCDATA)>
+
+<!ELEMENT auteur (nom, prenom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+
+<!ELEMENT commentaire (client, contenu)>
+<!ELEMENT client (nom, prenom)>
+<!ELEMENT contenu (#PCDATA)>
