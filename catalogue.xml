@@ -39,4 +39,18 @@
             <prenom>Tyler</prenom>
         </auteur>
     </livre>
+    <livre>
+        <titre>Muchachas 1</titre>
+        <description>
+            <image src="/data/images/covers/muchachas1.png"/>
+            <prix devise="EUR">4</prix>
+            <txtDescription>Muchachas est un roman français écrit par Katherine Pancol et publié en 2014. Il est le
+                premier tome de la trilogie Muchachas.
+            </txtDescription>
+        </description>
+        <auteur>
+            <nom>Pancol</nom>
+            <prenom>Katherine</prenom>
+        </auteur>
+    </livre>
 </catalogue>

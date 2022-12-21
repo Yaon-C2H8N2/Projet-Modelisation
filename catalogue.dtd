@@ -6,7 +6,7 @@
 <!ELEMENT image ()>
 <!ATTLIST image src CDATA #REQUIRED>
 <!ELEMENT prix (#PCDATA)>
-<!ATTLIST prix devise CDATA #REQUIRED>
+<!ATTLIST prix devise (EUR|USD|GBP) #REQUIRED>
 <!ELEMENT txtDescription (#PCDATA)>
 
 <!ELEMENT auteur (nom, prenom)>
