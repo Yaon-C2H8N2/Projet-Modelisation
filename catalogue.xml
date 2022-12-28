@@ -3,6 +3,7 @@
 <catalogue>
     <livre>
         <titre>Le Petit Prince</titre>
+        <theme>Littérature pour enfants</theme>
         <description>
             <image src="/data/images/covers/le_petit_prince.png"/>
             <prix devise="EUR">10</prix>
@@ -18,6 +19,8 @@
     </livre>
     <livre>
         <titre>L'éveil du Léviathan</titre>
+        <theme>Science-Fiction</theme>
+        <theme>Space Opéra</theme>
         <description>
             <image src="/data/images/covers/eveil_du_leviathan.png"/>
             <prix devise="EUR">12</prix>
@@ -41,6 +44,7 @@
     </livre>
     <livre>
         <titre>Muchachas 1</titre>
+        <theme>Fiction</theme>
         <description>
             <image src="/data/images/covers/muchachas1.png"/>
             <prix devise="EUR">4</prix>

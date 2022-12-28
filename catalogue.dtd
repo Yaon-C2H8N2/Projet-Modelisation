@@ -1,7 +1,8 @@
 <!ELEMENT catalogue (livre*)>
-<!ELEMENT livre (titre, description, auteur+)>
+<!ELEMENT livre (titre, theme+, description, auteur+)>
 
 <!ELEMENT titre (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
 <!ELEMENT description (image, prix, txtDescription, commentaire*)>
 <!ELEMENT image ()>
 <!ATTLIST image src CDATA #REQUIRED>
